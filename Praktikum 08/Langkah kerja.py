@@ -12,11 +12,19 @@ print('b=',b) #cetak list b
 c=a[0:8] #mendefinisikan nilai list c = list a dari indeks 0-7
 d=b[2:10]#mendefinisikan nilai list d = list b dari indeks 2-9
 print('c=',c)
-print('d=',d)     
-        
-e=[c[0]+d[0],c[1]+d[1],c[2]+d[2],c[3]+d[3],c[4]+d[4],c[5]+d[5],c[6]+d[7]]
-print('e=',e)
+print('d=',d)
+print()
 
+c=[1,3,4,5,6,6,9,10]
+d=[5,5,6,7,7,8,9,12]
+
+for x in range(0,len(c)):
+    print(c[x]+d[x],end=' ')  
+print()
+
+e=[6,8,10,12,13,14,18,22]
+print('e=',e)
+    
 ubahtuple=tuple(e)
 print('Ubah list e ke tuple e=',ubahtuple)
 
