@@ -2,6 +2,7 @@
 
 from datetime import*
 cari=input('Masukkan Kode Member  : ')
+print()
 datapinjam=open('d:\data peminjaman.txt','r')
 baca=datapinjam.read().splitlines()
 tglkembali=datetime.date(datetime.now())
